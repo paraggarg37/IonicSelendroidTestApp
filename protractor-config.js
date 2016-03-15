@@ -5,13 +5,14 @@ exports.config = {
 
     // Reference: https://github.com/appium/sample-code/blob/master/sample-code/examples/node/helpers/caps.js
     capabilities: {
-        platformName: 'android',
-        platformVersion: '5.0',
-        deviceName: 'lg g3',
+        platformName: 'Android',
+        platformVersion: '5.1.1',
+        deviceName: 'e06abe23',
         browserName: "",
-        autoWebview: true,
+         // automationName:'Selendroid',
+        autoWebview: false,
         //CHANGE THIS TO YOUR ABSOLUTE PATH
-        app: '/Users/tombuyse/Documents/ionicAppiumProtractorExample/ionicAppiumProtractorExample/platforms/android/build/outputs/apk/android-debug.apk'
+        app: '/Users/Parag/Documents/Parag/ionic-appium-protractor-example/platforms/android/build/outputs/apk/android-debug.apk'
         //newCommandTimeout: 60
     },
     baseUrl: 'http://10.0.2.2:8000',
